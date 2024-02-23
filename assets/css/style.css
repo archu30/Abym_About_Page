@@ -1,0 +1,244 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+h1 {
+    font-size: 3rem !important;
+    font-family: Oswald-regular;
+}
+
+p {
+    color: #000;
+    font-size: 1rem;
+    margin: 0 !important;
+    font-family: SourceSans3-Regular;
+}
+
+/* header */
+
+.sub-head {
+    background-color: #ffc748;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px
+}
+
+.phone {
+    background: #001f6e;
+    padding: 2px 5px;
+    border-radius: 50px;
+}
+
+.phone span {
+    display: inline-block;
+    width: 20px;
+    height: 23px;
+    margin-right: 5px;
+}
+
+.phone a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+
+.img {
+    border: none;
+    outline: none;
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .sub-head {
+        padding: 8px 28px;
+    }
+}
+
+/* social icons */
+.head-social-icon a {
+    cursor: pointer;
+    width: 25px;
+    display: inline-block;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none !important;
+    outline: none;
+}
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    padding: 12px 60px;
+    background: #017bc8;
+
+}
+
+.navbar-brand {
+    width: 140px;
+}
+
+.btn-sub {
+    margin-left: 12px;
+}
+
+
+/* banner */
+.banner-area {
+    position: relative;
+}
+
+.weekend-banner .banner {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    /* height: 75%; */
+}
+
+
+.banner-sen {
+    position: absolute;
+    top: 38%;
+    color: white;
+    text-align: center;
+    left: 42%;
+
+}
+
+.banner-sen h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+    /* letter-spacing: 2px; */
+    display: inline-grid;
+    margin: 0;
+    font-family: Oswald-regular;
+}
+
+@media screen and (max-width: 767px) {
+    .banner-sen h1 {
+        margin-left: -55px;
+    }
+}
+
+.weekend-banner .mob-bann {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .weekend-banner .banner {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .weekend-banner .mob-bann {
+        display: block;
+    }
+}
+
+
+/* About Trip */
+
+.about-trip {
+    margin-bottom: 3%;
+    margin-top: 50px;
+}
+
+.about-trip-experi {
+    background: #dff6fe;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+
+}
+
+#about-trip .about-trip-experi p {
+    color: #565656;
+    margin-top: 1.5rem !important;
+}
+
+.about-trip-head h2 {
+    font-weight: 700;
+    margin-bottom: 0rem !important;
+    color: rgba(0, 23, 82, 1);
+}
+
+#about-trip .about-trip-head p {
+    color: rgba(0, 23, 82, 1) !important;
+    font-weight: 600;
+    margin-top: 0.7rem !important;
+}
+
+#about-trip .about-trip-head strong {
+    color: rgba(37, 37, 37, 1);
+    font-weight: bolder;
+    font-family: 'SourceSans3-Regular';
+}
+
+/* travel */
+
+.travel-once .col {
+    align-items: center;
+    justify-content: center;
+    display: inline-grid;
+}
+
+.f-row-img {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .f-row-img {
+        display: block;
+    }
+}
+
+.s-row-img {
+    width: 98%;
+}
+
+.f-row-img img,
+.s-row-img img {
+    margin: 0.4rem !important;
+    border-radius: 0.5rem;
+}
+
+.travel-once-cont h3 {
+    font-weight: 600;
+    color: rgba(0, 23, 82, 1);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem !important;
+}
+
+.travel-once-cont p {
+    color: rgba(37, 37, 37, 1);
+    font-weight: 600;
+    font-size: 0.96rem;
+}
+
+.travel-once-cont ul {
+    padding-left: 1.6rem;
+}
+
+.travel-once-cont ul,
+li {
+    list-style: disc;
+    padding-top: 10px;
+}
